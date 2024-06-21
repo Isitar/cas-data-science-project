@@ -1,0 +1,231 @@
+{
+    "uuid": "f01419e1-2672-4593-96ca-62e3655abc46",
+    "layout_id": 1,
+    "layout_deviant_id": 9,
+    "setter_id": 1078,
+    "setter_username": "jwebxl",
+    "name": "swooped",
+    "description": "",
+    "hsm": 1,
+    "edge_left": 32,
+    "edge_right": 88,
+    "edge_bottom": 8,
+    "edge_top": 152,
+    "frames_count": 1,
+    "frames_pace": 0,
+    "is_draft": false,
+    "is_listed": true,
+    "created_at": "2018-12-06T21:15:01.127371+00:00",
+    "climb_stats": [
+      {
+        "angle": 0,
+        "fa_at": "2019-12-05 16:39:44",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "sheylo",
+        "quality_average": 2.68571,
+        "ascensionist_count": 35,
+        "difficulty_average": 14.8857
+      },
+      {
+        "angle": 5,
+        "fa_at": "2020-06-01 23:37:50",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "djragan",
+        "quality_average": 2,
+        "ascensionist_count": 2,
+        "difficulty_average": 12
+      },
+      {
+        "angle": 10,
+        "fa_at": "2019-10-23 07:48:59",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "gmorgan",
+        "quality_average": 2.67669,
+        "ascensionist_count": 133,
+        "difficulty_average": 15.8571
+      },
+      {
+        "angle": 15,
+        "fa_at": "2019-06-09 21:59:23",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "tnt5027",
+        "quality_average": 2.70526,
+        "ascensionist_count": 190,
+        "difficulty_average": 15.9526
+      },
+      {
+        "angle": 20,
+        "fa_at": "2019-02-05 05:01:37",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "latrokles",
+        "quality_average": 2.7341,
+        "ascensionist_count": 346,
+        "difficulty_average": 16.1127
+      },
+      {
+        "angle": 25,
+        "fa_at": "2019-03-10 18:57:52",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "TufasBoulderLounge",
+        "quality_average": 2.73684,
+        "ascensionist_count": 133,
+        "difficulty_average": 17.5414
+      },
+      {
+        "angle": 30,
+        "fa_at": "2018-12-20 21:13:34",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "mvnv",
+        "quality_average": 2.7709,
+        "ascensionist_count": 1340,
+        "difficulty_average": 17.7627
+      },
+      {
+        "angle": 35,
+        "fa_at": "2019-01-18 04:34:35",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "ccarrico",
+        "quality_average": 2.84211,
+        "ascensionist_count": 304,
+        "difficulty_average": 18.0855
+      },
+      {
+        "angle": 40,
+        "fa_at": "2018-12-06 21:15:24",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "jwebxl",
+        "quality_average": 2.80232,
+        "ascensionist_count": 1123,
+        "difficulty_average": 18.545
+      },
+      {
+        "angle": 45,
+        "fa_at": "2018-12-16 20:43:22",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "GW_Kilter",
+        "quality_average": 2.7554,
+        "ascensionist_count": 973,
+        "difficulty_average": 19.8571
+      },
+      {
+        "angle": 50,
+        "fa_at": "2018-12-11 01:15:13",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "KevinCuck",
+        "quality_average": 2.73913,
+        "ascensionist_count": 92,
+        "difficulty_average": 18.913
+      },
+      {
+        "angle": 55,
+        "fa_at": "2018-12-07 00:16:03",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "daxxta",
+        "quality_average": 2.84615,
+        "ascensionist_count": 52,
+        "difficulty_average": 20.6346
+      },
+      {
+        "angle": 60,
+        "fa_at": "2019-09-18 23:10:57",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "paulrobinson",
+        "quality_average": 2.84,
+        "ascensionist_count": 50,
+        "difficulty_average": 22
+      },
+      {
+        "angle": 65,
+        "fa_at": "2019-12-19 19:31:22",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "danfost",
+        "quality_average": 2.5,
+        "ascensionist_count": 4,
+        "difficulty_average": 22.25
+      },
+      {
+        "angle": 70,
+        "fa_at": "2020-01-07 09:21:01",
+        "climb_uuid": "F01419E12672459396CA62E3655ABC46",
+        "fa_username": "Dean177",
+        "quality_average": 2,
+        "ascensionist_count": 1,
+        "difficulty_average": 17
+      }
+    ],
+    "placements": [
+      {
+        "x": 20,
+        "y": 0,
+        "type": "FEET-ONLY",
+        "ledPosition": 15
+      },
+      {
+        "x": 8,
+        "y": 3,
+        "type": "FEET-ONLY",
+        "ledPosition": 143
+      },
+      {
+        "x": 16,
+        "y": 5,
+        "type": "START",
+        "ledPosition": 244
+      },
+      {
+        "x": 12,
+        "y": 7,
+        "type": "START",
+        "ledPosition": 191
+      },
+      {
+        "x": 14,
+        "y": 9,
+        "type": "MIDDLE",
+        "ledPosition": 203
+      },
+      {
+        "x": 22,
+        "y": 13,
+        "type": "MIDDLE",
+        "ledPosition": 308
+      },
+      {
+        "x": 8,
+        "y": 19,
+        "type": "MIDDLE",
+        "ledPosition": 131
+      },
+      {
+        "x": 16,
+        "y": 19,
+        "type": "MIDDLE",
+        "ledPosition": 233
+      },
+      {
+        "x": 12,
+        "y": 23,
+        "type": "MIDDLE",
+        "ledPosition": 179
+      },
+      {
+        "x": 8,
+        "y": 29,
+        "type": "MIDDLE",
+        "ledPosition": 124
+      },
+      {
+        "x": 14,
+        "y": 31,
+        "type": "MIDDLE",
+        "ledPosition": 219
+      },
+      {
+        "x": 14,
+        "y": 35,
+        "type": "FINISH",
+        "ledPosition": 221
+      }
+    ],
+    "total_ascents": 4778
+  }

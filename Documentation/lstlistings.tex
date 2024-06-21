@@ -1,0 +1,76 @@
+% color def
+\usepackage{color}
+\definecolor{darkred}{rgb}{0.6,0.0,0.0}
+\definecolor{darkgreen}{rgb}{0,0.50,0}
+\definecolor{lightblue}{rgb}{0.0,0.42,0.91}
+\definecolor{orange}{rgb}{0.99,0.48,0.13}
+\definecolor{grass}{rgb}{0.18,0.80,0.18}
+\definecolor{pink}{rgb}{0.97,0.15,0.45}
+
+% listings
+\usepackage{listings}
+
+
+\lstdefinelanguage{hist}{
+    basicstyle=\fontsize{8}{10}\ttfamily,
+}
+\definecolor{jsonblue}{RGB}{42,0,255}
+\definecolor{jsonpurple}{RGB}{128,0,128}
+
+
+\lstdefinelanguage{json}{
+    basicstyle=\fontsize{8}{10}\ttfamily,
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=lines,
+    backgroundcolor=\color{white},
+    literate=
+     *{0}{{{\color{jsonpurple}0}}}{1}
+      {1}{{{\color{jsonpurple}1}}}{1}
+      {2}{{{\color{jsonpurple}2}}}{1}
+      {3}{{{\color{jsonpurple}3}}}{1}
+      {4}{{{\color{jsonpurple}4}}}{1}
+      {5}{{{\color{jsonpurple}5}}}{1}
+      {6}{{{\color{jsonpurple}6}}}{1}
+      {7}{{{\color{jsonpurple}7}}}{1}
+      {8}{{{\color{jsonpurple}8}}}{1}
+      {9}{{{\color{jsonpurple}9}}}{1}
+      {:}{{{\color{jsonblue}{:}}}}{1}
+      {,}{{{\color{jsonblue}{,}}}}{1}
+      {\{}{{{\color{jsonblue}{\{}}}}{1}
+      {\}}{{{\color{jsonblue}{\}}}}}{1}
+      {[}{{{\color{jsonblue}{[}}}}{1}
+      {]}{{{\color{jsonblue}{]}}}}{1},
+}
+
+
+% Define custom colors
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+
+% Define Python style
+\lstdefinestyle{mystyle}{
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{blue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    frame=lines,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=Python
+}
+\lstset{style=mystyle}

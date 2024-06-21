@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{geometry}
+\usepackage{hyperref}
+\geometry{
+    a4paper,
+    left=3cm,
+    right=2cm,
+    top=3cm,
+    bottom=3cm
+}
+
+\usepackage{graphicx}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\usepackage{parskip} 
+\setlength{\parindent}{0pt} % Set horizontal indent between paragraphs
+\setlength{\parskip}{5pt} % Set vertical spacing between paragraphs
+
+\title{Kilter-Grade-Estimator}
+\author{Pascal Lüscher}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{minipage}[t]{0.45\textwidth}
+    \includegraphics[width=.8\textwidth]{./media/Kilter_Board.jpg}    
+\end{minipage}
+\hfill
+% Second minipage
+\begin{minipage}[t]{0.45\textwidth}
+    \resizebox{\textwidth}{!}{\input{nn_regressor.tex}}
+\end{minipage}
+
+
+
+Dieses Projekt zielt darauf ab, ein Modell zur Schätzung der Schwierigkeitsgrade von Kletterrouten auf einem Kilterboard zu entwickeln.
+Dabei werden Daten aus einer SQLite-Datenbank der Kilterboard-App genutzt.
+Der Datensatz umfasst über 200.000 Routen mit Merkmalen wie Griffplatzierungen und verschiedenen Kletterwinkeln. 
+Die Analyse umfasst die Datenbereinigung, One-Hot-Encoding der Griffplatzierungen und die Erstellung von Modellen mittels 
+
+\begin{itemize}
+\item logistischer Regression
+\item linearer Regression
+\item XGBoost
+\item neuronalen Netzen
+\end{itemize}
+
+Erste Modelle zeigten eine begrenzte Genauigkeit, was zu einer weiteren Untersuchung der Datenqualität und einer Vereinfachung der Schwierigkeitskategorien führte.
+Letztendlich erbrachte ein neuronales Netzwerk, das mit gefilterten, qualitativ hochwertigeren Daten trainiert wurde,
+die vielversprechendsten Ergebnisse. 
+Es erzielte einen MAE von 1,29 für die ursprünglichen Daten und 0,81 für vereinfachte Schwierigkeitskategorien,
+wodurch die Kletterschwierigkeit innerhalb akzeptabler Grenzen effektiv vorhergesagt werden konnte.
+
+Für zukünftige Projekte empfehle ich, die Griffarten der Kletterrouten stärker zu berücksichtigen,
+da dies die Leistung des Modells verbessern könnte. 
+Des Weiteren bietet sich die Möglichkeit, weitere neuronale Netzwerkarchitekturen zu erforschen und zu evaluieren,
+ um die Vorhersagegenauigkeit weiter zu steigern.
+
+Für weitere Infos: \href{https://github.com/Isitar}{Github Profile (Isitar)}
+
+\end{document}
